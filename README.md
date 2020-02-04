@@ -16,10 +16,10 @@ bot_amount = 5, \
 hits = 3, \
 safety = True)
 
-this script picks a random headline from bbc.com and prints it
+this script picks a random headline from https://www.bbc.com and prints it
 
 
-safety      = Adds a are you sure message to your script, so it does not execute automaticly
-commands[]  = commands you would like to run on each driver
-bot_amount  = the amount of phantomjs drivers you would like to run
+safety      = Adds a are you sure message to your script, so it does not execute automaticly \
+commands[]  = commands you would like to run on each driver \
+bot_amount  = the amount of phantomjs drivers you would like to run \
 hits        = amount of times each driver runs the commands, refreshes page every time
