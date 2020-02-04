@@ -23,7 +23,7 @@ def request_me(driver, website, commands):
     print('[' + datetime.datetime.now().strftime("%H:%M:%S") + ']: ' + bot_name + ' TASK_COMPLETE')
 
 
-def driver_bots(website = '!!!<>!!!', commands = [], bot_amount = 10, hits = 1, saftey = True):
+def driver_bots(website = '!!!<>!!!', commands = [], bot_amount = 10, hits = 1, safety = True):
     bots = {}
     if website == '!!!<>!!!':
         print('<<!NO_WEBSITE_LISTED!>>')
@@ -33,7 +33,7 @@ def driver_bots(website = '!!!<>!!!', commands = [], bot_amount = 10, hits = 1, 
         print('[' + datetime.datetime.now().strftime("%H:%M:%S") + ']: ' + 'bot_' + str(i) + ' CREATED')    
     is_first = True
     web_pool = [website for w in range(bot_amount)]
-    if saftey:
+    if safety:
         while True:
             commit = input('>>!EXECUTE?[Y/N]!>> ')
             if commit == 'Y':
